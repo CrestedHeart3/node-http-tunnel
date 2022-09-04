@@ -24,7 +24,9 @@ exit
 ./client # This sets up a SOCKS5 server on your local machine
 
 # Use with SSH
-ssh <your normal options> -o ProxyCommand "./ssh-connect <address of tunnelling server> %h %p"
+```
+  ssh <your normal options> -o ProxyCommand "./ssh-connect <address of tunnelling server> %h %p"
+```
 
 # pwnt.
 </code>
